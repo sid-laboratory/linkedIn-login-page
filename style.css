@@ -4,17 +4,50 @@
     border:0px;
 }
 .header {
-    background-color:rgb(243, 243, 248);
+    background-color:white;
     height:84%;
     width:screen;
+   
 }
-
+.pop {
+    height:10%;
+}
+.head {
+    display:flex;
+    display:flex-row;
+    justify-content:space-around;
+    padding-top:20px;
+}
 .material-symbols-outlined {
-    font-size:54px;
-  font-variation-settings:
-  'FILL' 0,
-  'wght' 600,
-  'GRAD' 3,
-  'opsz' 24,
- 
+    font-size:34px !important;
+    font-variation-settings: 'FILL' 0, 'wght' 600, 'GRAD' 3, 'opsz' 24;
+}
+.material-symbols-outlined:hover {
+font-size:40px !important;
+gap:-30px;
+}
+img {
+    margin-top:-59px;
+    margin-left:200px;
+    height: 160px;
+    width:160px;
+    object-fit: contain;
+}
+.first{
+    padding-left:-50px;
+    padding-top:5px;
+}
+.second {
+    padding-right:0px;
+    margin-left:-480px;
+    padding-top:5px;
+}
+.third {
+    margin-left:-490px;
+    padding-right:400px;
+    padding-top:5px;
+}
+.fourth {
+    margin-left:-700px;
+    padding-top:5px;
 }
