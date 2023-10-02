@@ -1,0 +1,20 @@
+*{
+    margin:0;
+    height:100%;
+    border:0px;
+}
+.header {
+    background-color:rgb(243, 243, 248);
+    height:84%;
+    width:screen;
+}
+
+.material-symbols-outlined {
+    font-size:54px;
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 600,
+  'GRAD' 3,
+  'opsz' 24,
+ 
+}
