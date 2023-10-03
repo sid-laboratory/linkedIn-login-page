@@ -16,7 +16,7 @@
 }
 .head {
     display:grid;
-    grid-template-columns:50% 100px 100px 100px 100px;
+    grid-template-columns:50% 100px 100px 100px 60px 30px 100px 100px;
     grid-template-rows:50px 20px 100px;
     padding-top:20px;
     height:30%;
@@ -35,7 +35,7 @@ transition: font-size 0.3s ease;
 
 }
 img {
-    margin-top:-59px;
+    margin-top:-55px;
     margin-left:400px;
     height: 170px;
     width:160px;
@@ -75,4 +75,46 @@ img {
     grid-column-end:6;
     font-size:small;
     padding-left:6px;
+}
+.line {
+    border-left: 2px solid rgb(121, 120, 120);
+    height:46px;
+    display:flex;
+    justify-content: end;
+    width:30px;
+    margin-top:10px;
+    margin-left:10px;
+}
+.join {
+    width:90px;
+    height:50px;
+    border-radius:29px;
+    font-size:medium;
+    margin-top:7px;
+    margin-left:16px;
+    background-color:white;
+}
+.signin {
+    color:blue;
+    border: 1px solid blue;
+    width:90px;
+    height:50px;
+    border-radius:29px;
+    font-size:medium;
+    margin-top:7px;
+    margin-left:16px;
+    background-color:white;
+}
+.join-class .signin-class{
+    display:flex;
+    justify-content:end;
+    
+}
+.join:hover{
+    background-color:rgb(231, 226, 226);
+    cursor:pointer;
+}
+.signin:hover {
+    background-color:rgb(192, 212, 253);
+    cursor:pointer;
 }
