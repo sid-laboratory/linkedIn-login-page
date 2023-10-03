@@ -5,7 +5,7 @@
 }
 .header {
     background-color:white;
-    height:84%;
+    height:12%;
     width:screen;
    
 }
@@ -93,6 +93,7 @@ img {
     margin-top:7px;
     margin-left:16px;
     background-color:white;
+    font-weight:700;
 }
 .signin {
     color:blue;
@@ -117,4 +118,61 @@ img {
 .signin:hover {
     background-color:rgb(192, 212, 253);
     cursor:pointer;
+}
+.body {
+    height:90%;
+    display:grid;
+    grid-template-columns:23% 34% 43% ;
+}
+.left {
+    display:grid;
+    grid-template-rows:20% 5% 10% 5% 7% 5% 10% 4% 10% 10%;
+    justify-content:start;
+}
+.bigsize {
+    font-size:52px;
+    padding-top:30px;
+    font-weight:200;
+    font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', 'Fira Sans', Ubuntu, Oxygen, 'Oxygen Sans', Cantarell, 'Droid Sans', 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Lucida Grande', Helvetica, Arial, sans-serif;
+    color:#8f5849;
+}
+.email-heading {
+    font:14px;
+    font-weight:600;
+    color:rgb(59, 59, 59);
+    padding-top:15px;
+}
+.password-heading {
+    font:14px;
+    font-weight:600;
+    color:rgb(59, 59, 59);
+    padding-top:15px;
+}
+.boxy {
+    border:1px solid black;
+    height:50%;
+    border-radius:6px;
+    width:75%;
+    font-size:large;
+    padding-left:20px;
+}
+.boxy-2 {
+    border:1px solid black;
+    height:70%;
+    border-radius:6px;
+    width:75%;
+    font-size:large;
+    padding-left:20px;
+}
+.password {
+    align-items:center;
+    color:#0a66c2;
+    padding-top:20px;
+    font-weight:900;
+    font-size:large;
+    background-color:white;
+    cursor:pointer;
+}
+.password:hover {
+    text-decoration:underline;
 }
